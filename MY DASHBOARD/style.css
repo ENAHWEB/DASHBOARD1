@@ -1,0 +1,134 @@
+body {
+        font-family: Arial, sans-serif;
+        margin:0 ;
+        padding:0 ;
+        display: flex;
+        background-color: aqua;
+    }
+    
+    header {
+        background-color: #4CAF50;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .headr{
+        
+        align-items: center;
+        width:00 px;
+        height: 00px;
+        border-radius: 0%
+        
+    
+    }
+    .benah{
+        width:280px;
+        height: 280px;
+        border-radius: 50%;
+        animation: floatImage 2s ease-in-out infinite
+
+    }
+     
+    @keyframes floatImage {
+        0%{
+            transform: translateY(0);
+        }
+    
+        50%{
+            transform: translateY(-2.2rem);
+        }
+    
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+
+
+    
+    .sidebar {
+        width: 250px;
+        background-color: blanchedalmond;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .sidebar ul {
+        list-style-type: none;
+        padding: 25px;
+    }
+    
+    .sidebar li a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        display: block;
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+    
+    .sidebar li a.active {
+        background-color: #70c474;
+        color: white;
+    }
+    
+    main {
+        display:flex;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .widget {
+        background-color:none;
+        border-radius: 5px;
+        box-shadow:  2px 5px rgb(red, green, blue);
+        padding: 15px;
+        margin-top: 10px;
+    }
+    
+    
+
+.container1{
+    background-color: rgb(135, 170, 163);
+    width: 180px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin: auto;
+    
+
+}
+.container2{
+    background-color: rgb(179, 113, 127);
+    width: 180px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    float: left;
+    display: block;
+}
+.container3{
+    background-color: rgb(91, 73, 134);
+    width: 180px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    float: left;
+    
+
+
+}
+footer {
+    text-align: center;
+    padding: 4px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom:18px;
+}
